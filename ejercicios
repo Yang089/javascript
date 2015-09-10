@@ -1,0 +1,55 @@
+Galones:
+var ga= prompt("ingrese la cantidad de galones a calcular :");
+var li=(ga/3.7854); 
+alert("la cantidad de galones es igual a "+li+" Lt");
+
+Celsius:
+var cl=prompt("Digite la cantidad de ºcelsius a convertir");
+var kl=1*cl+273;
+var fr=((9/5)*cl+32);
+alert("la cantidad de "+cl+" ºcl \n es igual a: \n"+kl+" ºkl \n"+fr+" ºfr");
+
+Kelvins:
+var kl=prompt("Digite la cantidad de ºKelvin a convertir");
+var cl=1*kl-273;
+var fr=((9/5)*(kl-273)+32);
+alert("la cantidad de "+kl+" ºkl \n es igual a: \n"+cl+" ºcl \n"+fr+" ºfr");
+
+Farenheits:
+var fr=prompt("Digite la cantidad de ªFarenheit a convertir");
+var kl=((fr-32)*(5/9)+273);
+var cl=(fr-32)*(5/9);
+alert("la cantidad de "+fr+" ºfr \n es igual a: \n"+cl+" ºcl \n"+kl+" ºkl");
+
+Persona luna:
+var pep= prompt("Digite su peso en Kg: ");
+var pel= pep*0.17;
+alert("su peso: "+pep+"Kg es equivalente en la luna a: "+pel+"N");
+
+
+Circulo:
+var rad = prompt("Ingrese el radio");
+var area=(3.1416*(rad*rad));
+alert("El area del circulo es: "+area);
+
+Triangulo:
+var ba = prompt("Ingrese la base");
+var ha = prompt("Ingrese la altura");
+var ar = (ba*ha)/2;
+alert("El area del triangulo es:"+ar);
+
+Cuadrado:
+var la = prompt("Ingrese el lado: ");
+var ar = (la*la);
+alert("El area del cuadrado es: "+ar);
+
+Numero de la frase:
+Frase = prompt("DIgite la frase a evaluar: ");
+var i=0;
+for(var j=0; j<Frase.length;j++)
+{
+if(Frase[j]=='a' || Frase[j]=='e' || Frase[j]=='i' || Frase[j]=='o' || Frase[j]=='u' || Frase[j]=='A' || Frase[j]=='E' || Frase[j]=='I' || Frase[j]=='O' || Frase[j]=='U'){
+i++;
+} 
+}
+alert("La frase que se evaluo es: "+Frase+" el numero de vocales sin acento en la frase es: "+i);
